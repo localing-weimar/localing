@@ -1,0 +1,213 @@
+.logo
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.logoimg
+{
+	max-width: 30%;
+	height: auto;
+	position: relative;
+	bottom: 2vw;
+	-webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.1));
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.1));		
+}
+
+.btn
+{
+	margin: 1em;
+	padding: 2em 10em;
+	border: 0;
+	border-radius: 90px;
+	white-space: nowrap;
+	cursor: pointer;
+	background-color: #71e094;
+	width: 30%;
+}
+
+.btn-div
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.text
+{
+	color: white;
+	font-size: 2vw;
+	font-family: all-round-gothic, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.1);
+}
+
+.text2
+{
+	display: none;
+}
+
+.btn-text
+	{
+		text-shadow: none;
+	}
+
+.contact
+{
+	color: white;
+	font-size: 1vw;
+	font-family: proxima-nova,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.links
+{
+	color: white;
+	font-size: 1vw;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+html
+{
+	background:url("Bildhintergrund@2x.png") no-repeat center center scroll #feae2b;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media screen and (max-aspect-ratio: 16/10){
+html
+{
+	background:url("Bildhintergrund1610@2x.png") no-repeat center center scroll #feae2b;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+}
+
+@media screen and (aspect-ratio: 4/3){
+html
+{
+	background:url("Bildhintergrund43@2x.png") no-repeat center center scroll #feae2b;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.footer
+{
+	position: flex;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	line-height: 1vw;
+}
+
+@media(max-width: 800px)
+{
+	.text
+	{
+		display: none;
+	}
+	
+	.text2
+	{
+		color: white;
+		font-family: all-round-gothic, sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		width: 100%;
+		font-size: 4vw;
+		line-height: 5vw;
+		font-stretch: expanded;
+		text-shadow: 2px 3px 5px rgba(0,0,0,0.1);
+	}
+	
+	html
+	{
+		background:url("background_mobile.png") no-repeat center center scroll #feae2b;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	.logo
+	{
+		margin-top: 30%;
+	}
+	
+	.logoimg
+	{
+		max-width: 90%;
+		-webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.1));
+		filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.1));
+	}
+
+	.btn
+	{
+		margin: -10vw;
+		padding: 0vw 35vw;
+		border: 0;
+		border-radius: 90px;
+		white-space: nowrap;
+		cursor: pointer;
+		background-color: #71e094;
+		width: 30%;
+	}
+	
+	.btn-text
+	{
+		text-shadow: none;
+	}
+	
+	.footer
+	{
+		display: inline-block;
+		margin-top: 80vw;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+		line-height: 2vw;
+	}
+	
+	.contact
+	{
+		font-size: 4vw;
+	}
+	
+	.links
+	{
+		font-size: 4vw;
+	}
+}
